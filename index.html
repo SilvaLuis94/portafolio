@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPL</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--css-bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--js-bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--fontawesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="img/user.png">
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<div class="container-fluid body" >
+    <div class="row h-100">
+        <div class="nav  p-0">
+            <div class="nav-side-menu">
+                <div class="brand">WELCOME</div>
+                <i class="fa fa-bars fa-2x toggle-btn " data-toggle="collapse" data-target="#"></i>
+                <div class="menu-list mobile">
+                    <ul id="menu-content" class="menu-content  ">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-user fa-lg"></i> About me
+                            </a>
+                        </li>
+                        <li data-toggle="collapse" data-target="#new" class="collapsed">
+                            <a href="#habilidades"><i class="fa fa-puzzle-piece"></i>&nbsp;Habilidades <span class="arrow"></span></a>
+                        </li>
+                        <li data-toggle="collapse" data-target="#new" class="collapsed">
+                            <a href="#tools"><i class="fa fa-gears "></i> Herramientas <span class="arrow"></span></a>
+                        </li>
+                        <li data-toggle="collapse" data-target="#new" class="collapsed">
+                            <a href="#contacto"><i class="fa fa-envelope"></i> Contacto <span class="arrow"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cuerpo ">
+            <div class="row contenido" id="aboutme">
+                <div class="col-12">
+                    <div class="titulo">
+                        <h1 >&nbsp;About me</h1>
+                        <span ></span>
+                    </div>
+                    <div class="col-12">
+                        <div class="resumen">
+                            <h4 style="color: black;font-weight: bold">Luis Fernado Silva Pasache</h4>
+                            <p style="font-size: 18px;">Developer web</p>
+                            <h5 style="text-align: justify;">Egresado de Ingenieria de sistemas 
+                                de la Universidad Nacional Federico Villarreal 2018-II. 
+                                Soy una persona responsable y que me gusta aprender nuevas cosas.
+                                Me considero autodidacta que gusta de las nuevas tecnologias.
+                            </h5>
+                            <br>
+                            <ul>
+                                <li style="font-size: 17px;">Desarrollo web</li>
+                                <li style="font-size: 17px;">Responsive web</li>
+                                <li style="font-size: 17px;">Diseño interativos</li>
+                                <li style="font-size: 17px;">Frameworks de desarollo</li>
+                                <li style="font-size: 17px;">Programacion por capas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contenido">
+                <div class="col-12">
+                    <div class="resumen">
+                        <h4 style="color: black;font-weight: bold">&nbsp; Residencia</h4><span></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.3507633703016!2d-76.99810768155318!3d-11.950198999214052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c54d2c7d14e1%3A0x52ec09550325bb07!2s17%20De%20Junio%2C%20Cercado%20de%20Lima%2015416!5e0!3m2!1ses-419!2spe!4v1602161753740!5m2!1ses-419!2spe" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div><br>
+                </div>
+            </div>
+            <div class="row contenido" id="habilidades">
+                <div class="col-12">
+                    <div class="titulo">
+                        <h1>&nbsp;Habilidades</h1><span></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>&nbsp;Lenguajes y Frameworks</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="grid">
+                                <ul>
+                                    <li class="grid-title"><h3>FrontEnd</h3></li>
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>JavaScript</li>
+                                    <li>React</li>
+                                    <li>Bootstrap</li>
+                                    <li>FontAwesome</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="grid">
+                                <ul>
+                                    <li class="grid-title"><h3>BackEnd</h3></li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>SQL</li>
+                                    <li>Laravel</li>
+                                    <li>Django</li>
+                                    <li>Composer</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="grid">
+                                <ul>
+                                    <li class="grid-title"><h3>Otros</h3> </li>
+                                    <li>JSON</li>
+                                    <li>AJAX</li>
+                                    <li>Java</li>
+                                    <li>Git</li>
+                                    <li>C++</li>
+                                    <li>C#</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 30px;" id="tools">
+                        <div class="col-12">
+                            <div class="titulo">
+                                <h1>Herramientas de software</h1><span></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul id="lista-grid" style="list-style: none;padding:0">
+                                <li style="display: flex;">
+                                    <img src="img/mysqlwork.png" style="width: 75px;height: 75px;"/>
+                                    <div class="grid-resumen">
+                                        <h4 style="color: #908f8f;">MySQL Workbench</h4>
+                                        <p>Gestor de base de datos</p>
+                                    </div>
+                                </li>
+                                <li style="display: flex ;">
+                                    <img src="img/vscode.jpg" style="width: 75px;height: 75px;border-radius: 50%;"/>
+                                    <div class="grid-resumen">
+                                        <h4 style="color: #908f8f;">Visual Studio Code</h4>
+                                        <p>Editor de codigo</p>
+                                    </div>
+                                </li>
+                                <li style="display: flex ;">
+                                    <img src="img/office.png" style="width: 75px;height: 75px;border-radius: 50%;"/>
+                                    <div class="grid-resumen">
+                                        <h4 style="color: #908f8f;">Office</h4>
+                                        <p>Aplicaciones de escritorio</p>
+                                    </div>
+                                </li>
+                                <li style="display: flex ;">
+                                    <img src="img/windows.jpg" style="width: 75px;height: 75px;border-radius: 50%;"/>
+                                    <div class="grid-resumen">
+                                        <h4 style="color: #908f8f;">Windows </h4>
+                                        <p>Sistema Operativo</p>
+                                    </div>
+                                </li>
+                                <li style="display: flex ;">
+                                    <img src="img/Wordpress.png" style="width: 75px;height: 75px;border-radius: 50%;"/>
+                                    <div class="grid-resumen">
+                                        <h4 style="color: #908f8f;">Wordpress</h4>
+                                        <p>Sistema de gestión de contenidos</p>
+                                    </div>
+                                </li>
+                                <li style="display: flex ;">
+                                    <img src="img/postman.png" style="width: 75px;height: 75px;border-radius: 50%;"/>
+                                    <div class="grid-resumen">
+                                        <h4 style="color: #908f8f;">Postman</h4>
+                                        <p>Manejador de API</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row contenido" id="contacto">
+                <div class="col-12">
+                    <div class="titulo">
+                        <h1>&nbsp;Contacto</h1><span></span>
+                    </div>
+                </div>
+                <div class="col-12" >
+                    <p style="margin-bottom:0;color: #908f8f;font-weight: bold">&nbsp;<i class="fa fa-envelope fa-2x" style="color:#5c9be8;"></i>&nbsp;Mail:</p>
+                    <p>silvapasacheluis@hotmail.com</p>
+                </div>
+                <div class="col-12">
+                    <p style="margin-bottom: 0;color: #908f8f;font-weight: bold">&nbsp;<i class="fa fa-phone-square fa-2x" style="color:green"></i> Celular:</p>
+                    <p>+51 902018447</p>
+                </div>
+                <div class="col-12">
+                    <p style="margin-bottom: 0;color: #908f8f;font-weight: bold">&nbsp;<i class="fa fa-map-marker fa-2x" style="color: #f44336!important;"></i> Ubicacion:</p>
+                    <p>San Juan de Lurigancho - Lima - Peru</p>
+                </div>
+            </div>    
+            <br>
+            <footer class="resumen" style="border-top: solid 3px #cccccc;text-align: right;padding: 15px;">
+                <h4>Powered by Luis Silva</h4>
+            </footer>
+        </div>
+    </div> 
+
+</div>
+
+</body>
+<script type="text/javascript" src="script.js" ></script>
+</html>
