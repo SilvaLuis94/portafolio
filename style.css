@@ -112,6 +112,27 @@ body{
 #lista-grid   li  img, .grid-resumen {
     margin: 5px 10px;
 }
+footer .uptop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: #86dbde8c;
+    border-radius: 5px;
+}
+footer .uptop a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
+footer .uptop a:hover{
+    background: #68b2b48c;
+    border-radius: 5px;
+}
 @media screen and (min-width: 575px) {
     .body{
         height: 100vh;
